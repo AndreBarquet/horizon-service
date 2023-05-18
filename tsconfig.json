@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,           
+    "strict": true,                             
+    "outDir": "./dist",
+    "rootDir": "./src",
+    
+
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],   
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
